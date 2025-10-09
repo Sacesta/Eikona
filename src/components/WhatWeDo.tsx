@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const WhatWeDo = () => {
   const items = [
@@ -38,10 +39,11 @@ const WhatWeDo = () => {
               key={index}
               className="relative rounded-2xl overflow-hidden group h-[450px] shadow-xl transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
             >
-              <img
+              <Image
                 src={item.img}
                 alt={item.title}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-6 transition-all duration-300">
                 <div className="bg-orange-500/90 backdrop-blur-md p-4 rounded-xl mb-4 max-w-max flex items-center gap-3 shadow-lg transform transition-all duration-300 group-hover:bg-orange-600/90 group-hover:scale-105">

@@ -86,7 +86,7 @@ export default function Testimonials({ testimonials }: TestimonialsProps) {
 
                 {/* Testimonial Text */}
                 <p className="text-gray-700 text-base leading-relaxed mb-6 min-h-[120px]">
-                  "{testimonial.text}"
+                  &ldquo;{testimonial.text}&rdquo;
                 </p>
 
                 {/* Author Info */}

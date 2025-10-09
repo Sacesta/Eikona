@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { FaWhatsapp } from 'react-icons/fa';
 import { HiX } from 'react-icons/hi';
 import { IoSend } from 'react-icons/io5';
@@ -57,10 +58,12 @@ export default function WhatsAppWidget() {
                   <div className="absolute bottom-full right-0 mb-4 bg-white rounded-2xl shadow-2xl p-4 transition-all duration-300 ease-in-out z-10">
                     <div className="flex items-center justify-center mb-2">
                       {/* QR Code Image - 200x200 */}
-                      <img 
+                      <Image 
                         src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://wa.me/7383155232"
                         alt="WhatsApp QR Code"
-                        className="w-[200px] h-[200px] rounded-lg"
+                        width={200}
+                        height={200}
+                        className="rounded-lg"
                       />
                     </div>
                     <p className="text-center text-gray-700 text-sm font-medium">Scan the code</p>
