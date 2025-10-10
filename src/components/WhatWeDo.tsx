@@ -4,7 +4,7 @@ import Image from "next/image";
 const WhatWeDo = () => {
   const items = [
     {
-      title: "Images and Presence",
+      title: "Image and Presence",
       description: "Transform your professional image with personalized coaching.",
       icon: "groups",
       img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBFl_48Kf5A4_E2e7fwLJ7jQX2oxZU9bqvdRXnymgAWbCI_UvlGCGIuTFnHLwuw_kzWaYL_B9ElevQNWqL88Fqb9RRXSJVHtgo4J9iJNrCfRU1OGPHC_BIBO6LRsJZEgxHXlUSEWn6T0FwL0sMAXDyPfNf9mwiJVRua1JOvTOuSdCO1oiDgBCYwFUtCLkhZg_eGI8FU1uDBa4RA6i6bAZrec76qjf5mTTpYEOL90fEdPRx1gcRk6df5F-TS7XkZ9GDjkeuNbbW5neI",
@@ -27,7 +27,7 @@ const WhatWeDo = () => {
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
             What We Do
           </h2>
       

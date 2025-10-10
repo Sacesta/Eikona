@@ -38,7 +38,7 @@ const WhoWeHelp = () => {
           <div className="inline-block mb-4">
           
           </div>
-          <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
             Who We Help
           </h2>
       

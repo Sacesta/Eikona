@@ -1,4 +1,5 @@
 import Navigation from '@/components/Navigation';
+import Footer from '@/components/Footer';
 import Button from '@/components/Button';
 import Testimonials from '@/components/Testimonials';
 import LogoGrid from '@/components/LogoGrid';
@@ -173,12 +174,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <p className="text-gray-400">© 2024 EIKONA Experiential Living. All rights reserved.</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

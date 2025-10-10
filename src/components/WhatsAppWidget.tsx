@@ -55,7 +55,7 @@ export default function WhatsAppWidget() {
               <div className="flex justify-end relative">
                 {/* QR Code Popup - Shows on hover above the button */}
                 {showQR && (
-                  <div className="absolute bottom-full right-0 mb-4 bg-white rounded-2xl shadow-2xl p-4 transition-all duration-300 ease-in-out z-10">
+                  <div className="absolute bottom-full border-1 right-0 mb-4 bg-white rounded-2xl shadow-2xl p-4 transition-all duration-300 ease-in-out z-10">
                     <div className="flex items-center justify-center mb-2">
                       {/* QR Code Image - 200x200 */}
                       <Image 

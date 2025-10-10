@@ -40,7 +40,7 @@ export default function Testimonials({ testimonials }: TestimonialsProps) {
   return (
     <section id="testimonials" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">Testimonials</h2>
+        <h2 className="text-3xl md:text-5xl font-bold text-center mb-16">Testimonials</h2>
         
         <div className="relative">
           {/* Navigation Buttons */}
