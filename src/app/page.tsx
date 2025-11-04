@@ -1,15 +1,15 @@
 import { Navigation } from "@/components/Navigation";
 import { HeroSection } from "@/components/HeroSection";
-import { InspirationSection } from "@/components/InspirationSection";
-import { AboutEikonaSection } from "@/components/AboutEikonaSection";
+import { ProgramsSection } from "@/components/ProgramsSection";
+import FounderSection from '@/components/FounderSection';
 
 export default function Home() {
   return (
     <div className="min-h-screen w-full">
       <Navigation />
-      <HeroSection />
-      <InspirationSection />
-      <AboutEikonaSection />
+      <HeroSection />  
+       <ProgramsSection />
+       <FounderSection/>
     </div>
   );
 }

@@ -13,6 +13,10 @@ const nextConfig: NextConfig = {
         hostname: 'api.qrserver.com',
         pathname: '/v1/**',
       },
+        {
+        protocol: 'https',
+        hostname: 'images.pexels.com',
+      },
     ],
   },
 };
