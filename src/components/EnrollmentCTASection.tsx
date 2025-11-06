@@ -10,10 +10,10 @@ export function EnrollmentCTASection() {
   const [showForm, setShowForm] = useState(false);
 
   return (
-    <div className="min-h-screen bg-[#F8F4ED] p-8">
+    <div className="min-h-screen  py-8">
       <div className="max-w-full mx-auto space-y-12">
         {/* Enrollment Section */}
-        <section className="mt-16">
+        <section className="mt-16 bg-[#F8F4ED]">
           <Card className="bg-[#F8F4ED] p-8 md:p-12 border-0">
             <div className="max-w-2xl mx-auto text-center">
               <h2 className="text-gray-800 text-xl font-bold mb-4">
@@ -66,8 +66,8 @@ export function EnrollmentCTASection() {
         </section>
 
         {/* Call to Action Section */}
-        <section className="mt-16">
-          <Card className="bg-gradient-to-r from-purple-600 to-purple-800 shadow-xl p-12 md:p-16 border-0">
+        <section className="mt-16 p-8">
+          <Card className="bg-[#114b5f] shadow-xl p-12 md:p-16 border-0">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-white text-2xl md:text-3xl lg:text-2xl font-bold mb-8">
                 Ready to CONFIDENTLY OWN the next room you enter?

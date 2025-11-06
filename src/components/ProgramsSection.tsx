@@ -26,7 +26,7 @@ export function ProgramsSection() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#F5F1E8]">
+    <div id="second-section" className="min-h-screen bg-[#F5F1E8]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
         <h1 className="text-4xl md:text-5xl font-light text-center text-gray-800 mb-20 tracking-wide leading-tight">
           We help individuals and organisations <span className="font-semibold">L.E.A.D.</span> with PURPOSE and PRESENCE
