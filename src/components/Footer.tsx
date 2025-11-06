@@ -1,77 +1,120 @@
-import React from 'react';
-import Link from 'next/link';
-import { CiInstagram , CiTwitter , CiLinkedin  } from "react-icons/ci";
+import { Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react";
+import Image from "next/image"
 
 export default function Footer() {
   return (
-    <footer className="py-12" style={{ backgroundColor: '#112534' }}>
-      <div className="max-w-7xl mx-auto px-6">
-        {/* Navigation Links */}
-        <div className="flex flex-wrap justify-center gap-8 md:gap-12 mb-8">
-          <Link 
-            href="/#services" 
-            className="text-orange-500 hover:text-orange-400 transition-colors text-base"
-          >
-            Services
-          </Link>
-          <Link 
-            href="/About" 
-            className="text-orange-500 hover:text-orange-400 transition-colors text-base"
-          >
-            About
-          </Link>
-          <Link 
-            href="/#blog" 
-            className="text-orange-500 hover:text-orange-400 transition-colors text-base"
-          >
-            Blog
-          </Link>
-          <Link 
-            href="/#contact" 
-            className="text-orange-500 hover:text-orange-400 transition-colors text-base"
-          >
-            Contact
-          </Link>
+    <div className="min-h-screen flex flex-col items-center justify-center px-6 py-12">
+      <div className="max-w-2xl w-full text-center space-y-8 md:space-y-12">
+        {/* Logo */}
+        <div className="flex justify-center">
+          <Image
+            src="/Final Eikona.png"
+            alt="Eikona Logo"
+            width={192}
+            height={192}
+            className="w-48 h-48 md:w-64 md:h-64 object-contain"
+          />
         </div>
 
-        {/* Social Media Icons */}
-        <div className="flex justify-center gap-6 mb-8">
+        {/* Quote */}
+        <div>
+          <p className="text-[#008080] italic text-[20px] md:text-[24px] tracking-wide">
+            Styling with Substance. Inside Out
+          </p>
+        </div>
+
+        {/* Navigation Links */}
+        <nav className="flex flex-wrap justify-center gap-3 md:gap-6">
           <a
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-orange-500 hover:text-orange-400 transition-colors"
-            aria-label="Instagram"
+            href="#about"
+            className="text-[#008080] hover:text-[#A3B18A] transition-colors text-[15px] md:text-[16px]"
           >
-            <CiInstagram className="w-5 h-5" />
+            About Us
           </a>
+          <span className="text-[#A3B18A]">|</span>
           <a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-orange-500 hover:text-orange-400 transition-colors"
-            aria-label="Twitter"
+            href="#work"
+            className="text-[#008080] hover:text-[#A3B18A] transition-colors text-[15px] md:text-[16px]"
           >
-            <CiTwitter className="w-5 h-5" />
+            Work With Us
           </a>
+          <span className="text-[#A3B18A]">|</span>
           <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-orange-500 hover:text-orange-400 transition-colors"
-            aria-label="LinkedIn"
+            href="#research"
+            className="text-[#008080] hover:text-[#A3B18A] transition-colors text-[15px] md:text-[16px]"
           >
-            <CiLinkedin className="w-5 h-5" />
+            Research
           </a>
+          <span className="text-[#A3B18A]">|</span>
+          <a
+            href="#contact"
+            className="text-[#008080] hover:text-[#A3B18A] transition-colors text-[15px] md:text-[16px]"
+          >
+            Contact
+          </a>
+        </nav>
+
+        {/* Social Media Section */}
+        <div>
+          <p className="text-[#008080] mb-4 text-[15px] md:text-[16px]">
+            Join the Community
+          </p>
+          <div className="flex justify-center gap-6">
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#008080] hover:text-[#A3B18A] transition-colors"
+              aria-label="Facebook"
+            >
+              <Facebook className="w-6 h-6 md:w-7 md:h-7" />
+            </a>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#008080] hover:text-[#A3B18A] transition-colors"
+              aria-label="Twitter"
+            >
+              <Twitter className="w-6 h-6 md:w-7 md:h-7" />
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#008080] hover:text-[#A3B18A] transition-colors"
+              aria-label="Instagram"
+            >
+              <Instagram className="w-6 h-6 md:w-7 md:h-7" />
+            </a>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#008080] hover:text-[#A3B18A] transition-colors"
+              aria-label="LinkedIn"
+            >
+              <Linkedin className="w-6 h-6 md:w-7 md:h-7" />
+            </a>
+            <a
+              href="https://youtube.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#008080] hover:text-[#A3B18A] transition-colors"
+              aria-label="YouTube"
+            >
+              <Youtube className="w-6 h-6 md:w-7 md:h-7" />
+            </a>
+          </div>
         </div>
 
         {/* Copyright */}
-        <div className="text-center">
-          <p className="text-gray-300 text-sm">
-            ©2024 EIKONA <span className="font-semibold">Experiential Living</span>. All rights reserved.
+        <div className="pt-6">
+          <p className="text-[#008080]/70 text-[13px] md:text-[14px]">
+            © 2025 Eikona Experiential Living Pvt. Ltd. All Rights Reserved
           </p>
         </div>
       </div>
-    </footer>
+    </div>
   );
 }

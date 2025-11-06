@@ -4,6 +4,9 @@ import { ProgramsSection } from "@/components/ProgramsSection";
 import FounderSection from '@/components/FounderSection';
 import { LeadershipSection } from '@/components/LeadershipSection';
 import { PraiseSection } from '@/components/PraiseSection';
+import { TrustedBySection } from '@/components/TrustedBySection';
+import { EnrollmentCTASection } from '@/components/EnrollmentCTASection';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -14,6 +17,9 @@ export default function Home() {
        <FounderSection/>
        <LeadershipSection/>
         <PraiseSection/>
+        <TrustedBySection />
+        <EnrollmentCTASection />
+        <Footer/>
     </div>
   );
 }
