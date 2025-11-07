@@ -19,7 +19,7 @@ export default function WhatsAppWidget() {
       {/* WhatsApp Floating Button */}
       <button
         onClick={toggleModal}
-        className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg transition-all duration-300 hover:scale-110"
+        className="fixed bottom-6 right-6 z-50 bg-green-500 cursor-pointer hover:bg-green-600 text-white rounded-full p-4 shadow-lg transition-all duration-300 hover:scale-110"
         aria-label="Open WhatsApp"
       >
         <FaWhatsapp className="w-8 h-8" />
@@ -37,7 +37,7 @@ export default function WhatsAppWidget() {
               </div>
               <button
                 onClick={toggleModal}
-                className="text-white hover:bg-green-600 rounded-full p-1.5 transition"
+                className="text-white hover:bg-green-600 rounded-full cursor-pointer p-1.5 transition"
                 aria-label="Close modal"
               >
                 <HiX className="w-6 h-6" />
@@ -56,7 +56,7 @@ export default function WhatsAppWidget() {
                 {/* QR Code Popup - Shows on hover above the button */}
                 {showQR && (
                   <div className="absolute bottom-full border-1 right-0 mb-4 bg-white rounded-2xl shadow-2xl p-4 transition-all duration-300 ease-in-out z-10">
-                    <div className="flex items-center justify-center mb-2">
+                    <div className="flex items-center justify-center mb-2 ">
                       {/* QR Code Image - 200x200 */}
                       <Image 
                         src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://wa.me/7383155232"

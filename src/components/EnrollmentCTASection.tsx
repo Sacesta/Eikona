@@ -10,14 +10,14 @@ export function EnrollmentCTASection() {
   const [showForm, setShowForm] = useState(false);
 
   return (
-    <div className="min-h-screen  py-8">
+    <div className="min-h-screen py-8">
       <div className="max-w-full mx-auto space-y-12">
         {/* Enrollment Section */}
-        <section className="mt-16 bg-[#F8F4ED]">
-          <Card className="bg-[#F8F4ED] p-8 md:p-12 border-0">
+        <section className="mt-16 bg-[#F3EDE4]">
+          <Card className="bg-[#F3EDE4] p-8 md:p-12 border-0">
             <div className="max-w-2xl mx-auto text-center">
               <h2 className="text-gray-800 text-xl font-bold mb-4">
-                Enroll for Our Community. Enrol for 7-Day Confidence Sprint
+                Enroll for Our Community. Enroll for 7-Day Confidence Sprint
               </h2>
               <p className="text-gray-600 mb-8 text-lg">
                 Daily micro-practices to shift how you show up.

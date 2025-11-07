@@ -68,7 +68,7 @@ export function LeadershipSection() {
   ];
 
   return (
-    <section className="w-full bg-[#F8F4ED] py-16 md:py-24 px-6 md:px-12 flex items-center justify-center min-h-screen">
+    <section className="w-full bg-[#F3EDE4] py-16 md:py-24 px-6 md:px-12 flex items-center justify-center min-h-screen">
       <div className="max-w-6xl mx-auto w-full text-center">
         {/* Main Message */}
         <div className="mb-12 md:mb-16">

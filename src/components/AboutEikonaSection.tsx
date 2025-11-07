@@ -51,7 +51,7 @@ export function AboutEikonaSection() {
     <section 
       id="about-eikona" 
       ref={sectionRef}
-      className="relative py-30 px-6 md:px-12 bg-gradient-to-b from-white via-sage-50 to-teal-50 overflow-hidden"
+      className="relative py-10 px-6 md:px-12 bg-gradient-to-b from-white via-sage-50 to-teal-50 overflow-hidden"
     >
       <ParticleBackground />
       

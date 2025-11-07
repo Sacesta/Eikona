@@ -17,24 +17,17 @@ export function PraiseSection() {
   const testimonials: Testimonial[] = [
     {
       id: 1,
-      quote: "Bhavna was exceptional in delivering a mindful leadership workshop at HSBC. She brought to light the profound knowledge of being grounded and well even in adverse situations. Her delivery was unique and the audience could really feel the difference post the session. Some who were oblivious to this leadership trait left the room enlightened. Thanks Bhavna.",
-      name: "Sreeja Mukerka",
-      designation: "Head - Global Banking CBG Central, HSBC",
-      avatar: "SM"
+      quote: "I have known Saloni for a few years, and her drive, skills, and passion have always been inspiring. I recently reached out to her for guidance before a public speaking event to gain a deeper understanding of the fundamentals of public speaking. While I had domain knowledge and expertise, I needed support in areas like stage presence, body language, content delivery, and audience engagement. During our discovery call, Saloni immediately understood what I was looking for and identified the gaps that needed to be addressed. She then tailored her coaching session to meet my specific needs, and the tools and techniques she shared proved to be incredibly helpful. I am looking forward to seeing her continue to blossom in this domain. I highly recommend her to anyone who wishes to improve in these areas. All the best!",
+      name: "Kalrav Shah",
+      designation: "Foundr, CloudTechy Solutions",
+      avatar: "KS"
     },
     {
       id: 2,
-      quote: "Thank you for the Building Step By Girl session for Google. They are one of the strongest sessions we've had this year and everyone found immense value in learning from you. Looking forward to hosting more sessions together!",
-      name: "Sarah Johnson",
-      designation: "Learning & Development Lead, Google",
-      avatar: "SJ"
-    },
-    {
-      id: 3,
-      quote: "The leadership workshop transformed our team's approach to mindful decision-making. The practical tools and insights shared have had a lasting impact on how we navigate challenges and lead with purpose.",
-      name: "Michael Chen",
-      designation: "VP of People Operations, Microsoft",
-      avatar: "MC"
+      quote: "I had the pleasure of connecting with Saloni online, and our conversations have been nothing short of inspiring. Her coaching style and approach are absolutely impeccable — warm, thoughtful, and deeply insightful. Through our sessions, Saloni helped me reflect on areas of my life I had been neglecting, including small but meaningful goals like developing a consistent reading habit and journaling regularly. What truly stands out about her is the way she blends professionalism with genuine empathy — she’s not just a coach, but also a mentor and a friend who helps you find clarity, set goals, and move forward in both your personal and professional journey. I’m truly grateful for her guidance and wish her continued growth and success. She truly deserves it!",
+      name: "Subhra Sen",
+      designation: "LEAD at Krea University",
+      avatar: "SS"
     }
   ];
 

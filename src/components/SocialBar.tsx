@@ -25,14 +25,14 @@ export default function SocialBar() {
       initial={{ y: 100, opacity: 0 }}
       animate={visible ? { y: 0, opacity: 1 } : { y: 100, opacity: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="fixed top-1/2 right-12 -translate-y-1/2 hidden lg:flex flex-col space-y-3 z-50"
+      className="fixed top-1/2 right-12 -translate-y-1/2 hidden lg:flex flex-col space-y-3 z-9"
     >
       {[
-        { icon: <FaFacebookF size={24} />, link: "https://facebook.com" },
-        { icon: <FaLinkedinIn size={24} />, link: "https://linkedin.com" },
+        { icon: <FaFacebookF size={24} />, link: "https://www.facebook.com/salonee1609/" },
+        { icon: <FaLinkedinIn size={24} />, link: "https://www.linkedin.com/in/parikhsaloni/" },
         { icon: <FaYoutube size={24} />, link: "https://youtube.com" },
-        { icon: <FaInstagram size={24} />, link: "https://instagram.com" },
-        { icon: <FaTwitter size={24} />, link: "https://twitter.com" },
+        { icon: <FaInstagram size={24} />, link: "https://www.instagram.com/salonisphere" },
+        { icon: <FaTwitter size={24} />, link: "https://x.com/Salonee__Parikh" },
       ].map((item, i) => (
         <a
           key={i}
