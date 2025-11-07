@@ -5,6 +5,7 @@ import { AboutEikonaSection } from "@/components/AboutEikonaSection";
 import { Navigation } from '@/components/Navigation';
 import { AboutSection } from '@/components/AboutSection';
 import {AboutFounder} from "@/components/AboutFounder";
+import SocialBar from '@/components/SocialBar';
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
         <AboutEikonaSection />
         <AboutFounder/>
       </main>
+      <SocialBar />
     </div>
   )
 }

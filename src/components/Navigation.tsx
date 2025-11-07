@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export function Navigation() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -20,7 +21,7 @@ export function Navigation() {
     <nav className="fixed top-0 left-0 right-0 z-50 px-4 sm:px-6 py-4 md:px-12 bg-[#F3EDE4] backdrop-blur-md border-b border-gray-200">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center gap-3">
+        <Link href="/" className="flex items-center gap-3 cursor-pointer">
           <Image
             src="/Final Eikona.png"
             alt="Eikona Logo"
@@ -32,7 +33,7 @@ export function Navigation() {
             <span className="text-gray-900 tracking-wide leading-tight font-semibold">EIKONA</span>
             <span className="text-gray-700 text-sm leading-tight">Experiential Living</span>
           </div>
-        </div>
+        </Link>
 
         {/* Center Links - Hidden on mobile */}
         <div className="hidden md:flex items-center gap-8">
@@ -66,18 +67,18 @@ export function Navigation() {
                   onMouseLeave={() => setIsDropdownOpen(false)}
                 >
                   <div className="py-2">
-                    <a
-                      href="/About"
+                    <Link
+                      href="/About#second-section"
                       className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-gray-900 transition-colors"
                     >
                       About Eikona
-                    </a>
-                    <a 
-                      href="#about-founder" 
+                    </Link>
+                    <Link
+                      href="/About#founder-section"
                       className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-gray-900 transition-colors"
                     >
                       About the Founder
-                    </a>
+                    </Link>
                   </div>
                 </motion.div>
               )}
@@ -154,20 +155,20 @@ export function Navigation() {
               <div className="py-3 border-b border-gray-100">
                 <div className="text-gray-700 font-medium mb-2">About</div>
                 <div className="space-y-2 pl-4">
-                  <a
-                    href="/About"
+                  <Link
+                    href="/About#second-section"
                     className="block py-2 text-gray-600 hover:text-gray-900 transition-colors"
                     onClick={closeMobileMenu}
                   >
                     About Eikona
-                  </a>
-                  <a
-                    href="#about-founder"
+                  </Link>
+                  <Link
+                    href="/About#founder-section"
                     className="block py-2 text-gray-600 hover:text-gray-900 transition-colors"
                     onClick={closeMobileMenu}
                   >
                     About the Founder
-                  </a>
+                  </Link>
                 </div>
               </div>
 
