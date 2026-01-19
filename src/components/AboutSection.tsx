@@ -76,13 +76,13 @@ export function AboutSection() {
               Every movement begins with a reflection.
             </p>
             <p className="text-[18px] md:text-[20px]" style={{ fontFamily: 'Glacial Indifference, sans-serif' }}>
-              Eikona — derived from the Greek word for image or reflection — is more than just a name. It's a mirror to the self, a reminder that true transformation begins from within.
+              Eikona — derived from the Greek word for image or reflection — is more than just a name. It&apos;s a mirror to the self, a reminder that true transformation begins from within.
             </p>
             <p className="text-[18px] md:text-[20px]" style={{ fontFamily: 'Glacial Indifference, sans-serif' }}>
               In a world that constantly tells us who to be, Eikona was born as an invitation — to pause, reflect, and rediscover who we truly are.
             </p>
             <p className="text-[18px] md:text-[20px]" style={{ fontFamily: 'Glacial Indifference, sans-serif' }}>
-              The idea took shape through countless conversations with young people, educators, and professionals who were striving to express themselves better, lead with confidence, and find purpose in their journeys. What they needed wasn't more information — it was connection, clarity, and confidence.
+              The idea took shape through countless conversations with young people, educators, and professionals who were striving to express themselves better, lead with confidence, and find purpose in their journeys. What they needed wasn&apos;t more information — it was connection, clarity, and confidence.
             </p>
             <p className="text-[18px] md:text-[20px]" style={{ fontFamily: 'Glacial Indifference, sans-serif' }}>
               Eikona exists to nurture that. To help people not just learn skills, but live them — through mindful experiences that transform the way they think, feel, and show up in the world.

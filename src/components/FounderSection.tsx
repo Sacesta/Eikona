@@ -34,7 +34,7 @@ export default function FounderSection() {
           <div className="flex flex-col justify-center space-y-6 md:pl-8">
             
             <div className="space-y-4 text-stone-700 leading-relaxed text-xs md:text-lg">
-              <p>Hi, I'm Saloni. I'm so happy you're here.</p>
+              <p>Hi, I&apos;m Saloni. I&apos;m so happy you&apos;re here.</p>
               
               <p>
                 Eikona was born from a simple belief — that when we discover who we truly are, 
@@ -42,19 +42,19 @@ export default function FounderSection() {
               </p>
               
               <p>
-                Over the decade, I've met so many young people and professionals searching for 
+                Over the decade, I&apos;ve met so many young people and professionals searching for 
                 clarity, confidence, and a way to express themselves — not just to impress, but 
                 to connect and create impact. Through Eikona, I hope to make that journey a 
                 little more guided, a little more joyful.
               </p>
               
               <p>
-                Here, we work on what's within as much as what's seen on the outside — helping 
+                Here, we work on what&apos;s within as much as what&apos;s seen on the outside — helping 
                 you grow in style and substance, presence and purpose.
               </p>
               
               <p>
-                If you're ready to explore that journey, start with any of our programs, join 
+                If you&apos;re ready to explore that journey, start with any of our programs, join 
                 our growing community, or simply take a moment to reflect with us.
               </p>
               

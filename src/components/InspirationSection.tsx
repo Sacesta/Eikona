@@ -48,7 +48,7 @@ export function InspirationSection() {
             <div className="space-y-4 text-lg text-gray-600">
               <p>
                 In a world that often prioritizes external achievements, we believe true leadership starts from within. 
-                It's about cultivating self-awareness, emotional intelligence, and authentic presence.
+                It&apos;s about cultivating self-awareness, emotional intelligence, and authentic presence.
               </p>
               <p>
                 Our experiential approach helps you uncover your unique leadership style and express it confidently 

@@ -478,27 +478,27 @@ export function AboutFounder() {
                       className="space-y-4 pt-4"
                     >
                       <p className="leading-relaxed">
-                        An engineer and public policy professional turned social innovator, Saloni's
+                        An engineer and public policy professional turned social innovator, Saloni&apos;s
                         journey has been guided by curiosity, compassion, and a deep sense of service.
                         She began her career in the public sector, working at the crossroads of
                         education, skill development, and governance — leading large-scale programs with
                         the Ministry of Youth Affairs and Sports, Ministry of Skill Development and
                         Entrepreneurship at the Government of India, the Government of Gujarat, the
                         Asian Development Bank, and organizations such as EmpowerEd, Central Square
-                        Foundation, and Ernst & Young.
+                        Foundation, and Ernst &amp; Young.
                       </p>
 
                       <p className="leading-relaxed">
                         From strengthening teacher ecosystems under the NIPUN Bharat Mission to
-                        envisioning Gujarat's 5-year Skill Development Plan, her work has impacted
+                        envisioning Gujarat&apos;s 5-year Skill Development Plan, her work has impacted
                         thousands of learners, educators, and youth across India, helping shape the
-                        nation's education and skilling landscape in alignment with the National
+                        nation&apos;s education and skilling landscape in alignment with the National
                         Education Policy 2020.
                       </p>
 
                       <p className="leading-relaxed">
                         A Mahatma Gandhi National Fellow from the Indian Institute of Management
-                        Bangalore, where she authored one of India's top-ranked District Skill
+                        Bangalore, where she authored one of India&apos;s top-ranked District Skill
                         Development Plans recognized by the Government of India, Saloni embodies the
                         bridge between policy and people. She combines research, empathy, and real-world
                         insights to design experiences that empower individuals to communicate with
@@ -506,13 +506,13 @@ export function AboutFounder() {
                       </p>
 
                       <p className="leading-relaxed">
-                        Saloni's leadership and service have been recognized both nationally and
+                        Saloni&apos;s leadership and service have been recognized both nationally and
                         globally. She is an NSS National Awardee (2017–18), honored by the President of
                         India for her contribution to community development, and a recipient of the
                         #SheRise Award by the Confederation of Indian Industry for women in social
                         entrepreneurship. She has also been honored with the Champions of Change Award
                         by the Chief Minister of Gujarat, and has represented India at global platforms
-                        including the World Economic Forum's Global Shapers Summit, the Shape South Asia
+                        including the World Economic Forum&apos;s Global Shapers Summit, the Shape South Asia
                         Summit in Nepal, and the International Experience Program in Germany.
                       </p>
 
@@ -523,24 +523,24 @@ export function AboutFounder() {
                       </p>
 
                       <p className="leading-relaxed">
-                        At the heart of Saloni's work lie her core values — authenticity, empathy,
+                        At the heart of Saloni&apos;s work lie her core values — authenticity, empathy,
                         growth, and contribution. She believes that leadership begins within: when
                         individuals learn to listen deeply, express clearly, and act with integrity.
-                        Through Eikona, she envisions creating spaces where people don't just learn what
+                        Through Eikona, she envisions creating spaces where people don&apos;t just learn what
                         to do, but cherish who they can become.
                       </p>
 
                       <p className="leading-relaxed">
                         A believer in lifelong learning, Saloni finds inspiration in stories from the
                         ground, art, travel, writing, and conversations that broaden perspectives. Her
-                        life's mission reflects her favorite truth — that transformation doesn't begin
+                        life&apos;s mission reflects her favorite truth — that transformation doesn&apos;t begin
                         with systems or structures, but with self-awareness.
                       </p>
 
                       <blockquote className="border-l-4 border-purple-600 pl-4 py-2 italic text-gray-600 my-6">
-                        "Every individual holds infinite potential. My work — through policy, skilling,
+                        &ldquo;Every individual holds infinite potential. My work — through policy, skilling,
                         or personality development — is to help that potential find its reflection in
-                        the real world. And that's where Eikona is born."
+                        the real world. And that&apos;s where Eikona is born.&rdquo;
                         <footer className="mt-2 not-italic">— Saloni Parikh</footer>
                       </blockquote>
 

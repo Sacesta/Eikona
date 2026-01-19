@@ -129,7 +129,7 @@ export function PraiseSection() {
                 transition={{ delay: 0.2, duration: 0.5 }}
                 className="text-white/90 text-[16px] md:text-[18px] leading-relaxed mb-8 md:mb-12 italic max-w-3xl mx-auto"
               >
-                "{testimonials[currentIndex].quote}"
+                &ldquo;{testimonials[currentIndex].quote}&rdquo;
               </motion.p>
 
               {/* Author Info */}

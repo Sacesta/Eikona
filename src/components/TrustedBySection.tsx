@@ -1,12 +1,10 @@
 // components/TrustedBySection.tsx
 'use client';
 
-import { useState } from 'react';
 import { Card } from './ui/card';
 import Image from 'next/image';
 
 export function TrustedBySection() {
-  const [showForm, setShowForm] = useState(false);
 
   // Images object - images are in the public folder
   const images = {

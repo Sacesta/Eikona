@@ -1,7 +1,7 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
-import { motion, useInView, useScroll, useTransform } from 'motion/react';
+import { useState, useRef } from 'react';
+import { motion, useInView } from 'motion/react';
 import { ChevronDown, Target, Compass, Heart, Users, MessageCircle, Leaf, Sprout, Flower2, Sparkles } from 'lucide-react';
 
 export function AboutEikonaSection() {
@@ -17,35 +17,7 @@ export function AboutEikonaSection() {
     }));
   };
 
-  // Animated background particles
-  const ParticleBackground = () => {
-    return (
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {[...Array(20)].map((_, i) => (
-          <motion.div
-            key={i}
-            className="absolute w-2 h-2 bg-[#4169E1] rounded-full opacity-20"
-            initial={{ 
-              x: Math.random() * 100 + '%', 
-              y: Math.random() * 100 + '%',
-              scale: 0
-            }}
-            animate={{ 
-              y: [null, Math.random() * -100 + '%'],
-              scale: [0, 1, 0],
-              opacity: [0, 0.3, 0]
-            }}
-            transition={{
-              duration: Math.random() * 10 + 10,
-              repeat: Infinity,
-              delay: Math.random() * 5,
-              ease: "easeInOut"
-            }}
-          />
-        ))}
-      </div>
-    );
-  };
+
 
   return (
     <section
@@ -128,8 +100,8 @@ export function AboutEikonaSection() {
                     animate={isInView ? { opacity: 1 } : {}}
                     transition={{ delay: 0.5 }}
                   >
-                    Eikona derives its name from the ancient Greek word "eikóna," meaning image, reflection, or likeness. 
-                    It symbolizes the mirror of the soul, emphasizing the journey of seeing one's true worth beyond physical 
+                    Eikona derives its name from the ancient Greek word &ldquo;eikóna,&rdquo; meaning image, reflection, or likeness. 
+                    It symbolizes the mirror of the soul, emphasizing the journey of seeing one&apos;s true worth beyond physical 
                     appearances or external judgments.
                   </motion.p>
                   <motion.p 
@@ -138,8 +110,8 @@ export function AboutEikonaSection() {
                     animate={isInView ? { opacity: 1 } : {}}
                     transition={{ delay: 0.6 }}
                   >
-                    The term "experiential living" is identified as a process used to transport people from where they are 
-                    to where they want to be by 'doing'. Hence, learning with theories adds to experiencing living life by 
+                    The term &ldquo;experiential living&rdquo; is identified as a process used to transport people from where they are 
+                    to where they want to be by &apos;doing&apos;. Hence, learning with theories adds to experiencing living life by 
                     being mindfully present in all actions.
                   </motion.p>
                   <motion.p 
@@ -434,7 +406,7 @@ export function AboutEikonaSection() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2 }}
               >
-                Eikona envisions to empower India's youth, professionals and leaders to realize their true potential 
+                Eikona envisions to empower India&apos;s youth, professionals and leaders to realize their true potential 
                 by uncovering their passions, building creative confidence, and excelling in life through transformative 
                 personality development and image management.
               </motion.p>
